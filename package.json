@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "prestart": "npm install",
-    "start": "nodemon server.js",
+    "start": "forever -a server.js",
     "watch": "forever -a -w server.js",
     "lint": "eslint ."
   },
